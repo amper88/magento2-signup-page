@@ -1,0 +1,12 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Company_Signup::signup_grid"
+             title="Sign up grid"
+             translate="title"
+             module="Company_Signup"
+             sortOrder="60"
+             parent="Magento_Customer::customer"
+             action="signup/grid"
+             resource="Vendor_Signup::signup_grid"/>
+    </menu>
+</config>
